@@ -1,0 +1,5 @@
+services:
+  emotion-garden:
+    build: .
+    ports:
+      - "8102:80"
